@@ -108,12 +108,13 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
 
 <!--end of navbar-->
 <!--start of 2nd row-->
-    <div class="row text-center">
-        <div class="col-12 ">
+        <div class="text-center ">
             <h1>codeup design</h1>
         </div>
-<!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
-        <ul class="text-center row d-md-none">
+
+<div class="row d-sm-none d-flex justify-content-center p-none">
+    <!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
+        <ul class="row d-md-none">
             <li class="row-item">
                <a class="nav-link text-dark " href="#">Service</a>
             </li>
@@ -134,68 +135,116 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
         <h4 class="mt-5 text-center">FROM PARK CITY, UTAH</h4>
 <!--end of headers-->
 <!--circle buttons not aligned or styled, just figure out -->
-
-                <div class="row">
-                        <div class="col-6 col-sm-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-6">
                            <div class="circle design">
-                                <p class=" text-center">design</p>
+                                <p class=" text-center">DESIGN</p>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-3">
-                            <div class="circle" style="border: 6px solid white; border-radius: 50%;">
-                                <p class="text-center">develop</p>
+                        <div class="col-sm-3 col-6">
+                            <div class="circle">
+                                <p class="text-center">DEVELOP</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="circle">
+                                <p class="text-center">SUPPORT</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="circle">
+                                <p class="text-center">HOST</p>
                             </div>
                         </div>
                     </div>
-                <div class="row">
-                    <div class="col-6 col-sm-3">
-                        <div class="circle">
-                            <p class="text-center">support</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-3">
-                        <div class="circle">
-                            <p class="text-center">HOST</p>
-                        </div>
-                    </div>
-            </div>
-         </div>
+                </div>
 <!--END OF CIRCLES-->
+<!--BEGINNING OF BREAK POINT-->
+<hr class="d-none d-sm-block">
+
+
 <!--JUST PUT IN THE WORDING AGAIN NO STYLING-->
     <p class="text-center">SELECTED WORK</p>
-<!--LOADED THE IMAGE TO THE PAGE-->
-    <div class="card-body border rounded">
-    <img src="assets/images/apple-ipad.jpg" width="100%"/>
-    </div>
-<!--TRIED TO MAKE THE LITTLE CIRCLES-->
-<div class="col-xs-12 col-md-4 mb-1">
-    <figure class="figure">
-        <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
-             alt="A generic square placeholder image with rounded corners in a figure.">
-        <figcaption class="figure-caption">
-            <!--start of feature and pills pic 4-->
-            <div class="d-flex bd-highlight mb-3">
-                <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
-                <span class="p-2 bd-highlight">
-                                <span class="badge badge-pill badge-danger">D</span>
-                                <span class="badge badge-pill badge-warning">D</span>
-                                <span class="badge badge-pill badge-success">S</span>
-                                <span class="badge badge-pill badge-info">H</span>
-                            </span>
-            </div>
-        </figcaption>
-    </figure>
-</div>
-<!--<div class="row">-->
-<!--    <div class="footer">-->
-<!--        <div class="col-md-4 block">-->
-<!--            <div class="dots">-->
-<!--                <p>d</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
+<!--APPLE PICTURE BOX-->
+            <div class="row m-2">
+                    <div class="col-12 col-sm-6 mb-1">
+                        <figure class="figure">
+                            <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+                                    <span class="p-2 bd-highlight">
+                                                    <span class="badge badge-pill badge-danger">D</span>
+                                                    <span class="badge badge-pill badge-warning">D</span>
+                                                    <span class="badge badge-pill badge-success">S</span>
+                                                    <span class="badge badge-pill badge-info">H</span>
+                                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--MACBOOK PICTURE BOX-->
+                    <div class="col-sm-6 mb-1">
+                        <figure class="figure">
+                            <img src="assets/images/macbook.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+                                    <span class="p-2 bd-highlight">
+                                                    <span class="badge badge-pill badge-danger">D</span>
+                                                    <span class="badge badge-pill badge-warning">D</span>
+                                                    <span class="badge badge-pill badge-success">S</span>
+                                                    <span class="badge badge-pill badge-info">H</span>
+                                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--MAN PICTURE BOX-->
+                    <div class="col-sm-6 mb-1">
+                        <figure class="figure">
+                            <img src="assets/images/man.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+                                    <span class="p-2 bd-highlight">
+                                                    <span class="badge badge-pill badge-danger">D</span>
+                                                    <span class="badge badge-pill badge-warning">D</span>
+                                                    <span class="badge badge-pill badge-success">S</span>
+                                                    <span class="badge badge-pill badge-info">H</span>
+                                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--SECURITY PICTURE BOX-->
+                    <div class="col-sm-6 mb-1">
+                        <figure class="figure">
+                            <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+                                    <span class="p-2 bd-highlight">
+                                                    <span class="badge badge-pill badge-danger">D</span>
+                                                    <span class="badge badge-pill badge-warning">D</span>
+                                                    <span class="badge badge-pill badge-success">S</span>
+                                                    <span class="badge badge-pill badge-info">H</span>
+                                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+            </div>
 <!--End main container-->
 
 
