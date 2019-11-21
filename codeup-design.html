@@ -57,10 +57,6 @@
         list-style: none;
     }
 
-#custom .move {
-position: relative;
-}
-
 
 
 </style>
@@ -75,11 +71,11 @@ position: relative;
 <!--    <div class="col-12 card-body">-->
 <!--        <nav class="navbar  bg-color2">-->
                 <div>
-                <a class="brand d-md-none d-sm-block" href="">
-                  <img src="assets/logo.png" alt="circle" width="105" height="105">
-                </a>
+                    <a class="brand d-md-none d-sm-block d-flex justify-content-center" href="">
+                    <img src="assets/logo.png" alt="circle" width="105" height="105">
+                     </a>
                 </div>
-            <nav class="navbar navbar-light bg-light mt-5 navbar-expand-md">
+            <nav class="navbar navbar-light bg-light navbar-expand-md mt-5">
 <!--               <a class="nav-brand d-flex align-items-center justify-content-center" href="">-->
 <!--                    <img src="assets/logo.png" alt="circle" width="105" height="105">-->
 <!--                </a>-->
@@ -117,9 +113,9 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
             <h1>codeup design</h1>
         </div>
 <!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
-        <ul class="text-center row">
+        <ul class="text-center row d-md-none">
             <li class="row-item">
-                <a class="nav-link text-dark" href="#">Service</a>
+               <a class="nav-link text-dark " href="#">Service</a>
             </li>
             <li class="row-item">
                 <a class="nav-link text-dark" href="#">Work</a>
@@ -138,26 +134,26 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
         <h4 class="mt-5 text-center">FROM PARK CITY, UTAH</h4>
 <!--end of headers-->
 <!--circle buttons not aligned or styled, just figure out -->
-             <div class="row">
-                        <div class="col-6 col-md-6">
-                            <div class="circle design">
+
+                <div class="row">
+                        <div class="col-6 col-sm-3">
+                           <div class="circle design">
                                 <p class=" text-center">design</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-6">
+                        <div class="col-6 col-sm-3">
                             <div class="circle" style="border: 6px solid white; border-radius: 50%;">
                                 <p class="text-center">develop</p>
                             </div>
                         </div>
-             </div>
-
-            <div class="row">
-                    <div class="col-6 col-md-6">
+                    </div>
+                <div class="row">
+                    <div class="col-6 col-sm-3">
                         <div class="circle">
                             <p class="text-center">support</p>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6">
+                    <div class="col-6 col-sm-3">
                         <div class="circle">
                             <p class="text-center">HOST</p>
                         </div>
