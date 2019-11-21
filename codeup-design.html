@@ -20,7 +20,7 @@
         background-color: #E6E6E6;
         padding:0;
     }
-    .circle {
+    #custom .circle {
         background: red;
         border-radius: 50%;
         color: white;
@@ -57,24 +57,30 @@
         list-style: none;
     }
 
-
+#custom .move {
+position: relative;
+}
 
 
 
 </style>
-<body>
+<body id="custom">
 <!--start main container-->
-<div class="main-container text-center bg-color">
+
 <!--    start of first row-->
 <!--    <div class="col-12">-->
 
-    </div>
+
     <!-- start of navbar -->
 <!--    <div class="col-12 card-body">-->
 <!--        <nav class="navbar  bg-color2">-->
-            <nav class="navbar-expand-sm bg-light mt-5" width="100%">
-
-<!--                <a class="nav-brand d-flex align-items-center justify-content-center" href="">-->
+                <div>
+                <a class="brand d-md-none d-sm-block" href="">
+                  <img src="assets/logo.png" alt="circle" width="105" height="105">
+                </a>
+                </div>
+            <nav class="navbar navbar-light bg-light mt-5 navbar-expand-md">
+<!--               <a class="nav-brand d-flex align-items-center justify-content-center" href="">-->
 <!--                    <img src="assets/logo.png" alt="circle" width="105" height="105">-->
 <!--                </a>-->
 <!--ADDED THIS NAV BAR TO SEE WHAT IT WOULD DO, JUST NEED TO CENTER AND LINE UP ITEMS-->
@@ -88,7 +94,7 @@
                         <a class="nav-link text-dark" href="#">WORK</a>
                     </li>
                         <li>
-                    <a class="nav-brand" href="">
+                    <a class="nav-brand d-none d-md-block" href="">
                         <img src="assets/logo.png" alt="circle" width="105" height="105">
                        </a>
                     </li>
@@ -103,6 +109,7 @@
 matt- added d-none to hide nav items when in small screen and d-md-block to display on med screen-->
 <!--            </nav>-->
             </nav>
+
 <!--end of navbar-->
 <!--start of 2nd row-->
     <div class="row text-center">
@@ -138,7 +145,7 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                             </div>
                         </div>
                         <div class="col-6 col-md-6">
-                            <div class="circle">
+                            <div class="circle" style="border: 6px solid white; border-radius: 50%;">
                                 <p class="text-center">develop</p>
                             </div>
                         </div>
