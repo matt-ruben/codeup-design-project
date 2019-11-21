@@ -11,23 +11,25 @@
     <title>Hello, world!</title>
 </head>
 <style>
-    .bg-color {
+    :root {
+        --main-bg-color: #E6563B;
+    }
+
+    body {
+        height: 100%;
         background-color: #E6E6E6;
+        padding:0;
     }
-
-    .bg-color2 {
-        background-color: #F0F0F0;
-    }
-
     .circle {
         background: red;
-        border-radius: 100px;
+        border-radius: 50%;
         color: white;
         height: 100px;
         /*font-weight: bold;*/
         width: 100px;
         display: table;
         margin: 20px auto;
+        border:5px white;
     }
     .dots {
         background: red;
@@ -39,6 +41,10 @@
         display: table;
         margin: 20px auto;
     }
+    .design{
+        background-color: var(--main-bg-color);
+    }
+
     /*KEEPS TEXT DIRECTLY IN THE MIDDLE*/
     .circle p {
         vertical-align: middle;
@@ -47,11 +53,11 @@
     h{
         font-family: 'Anton', sans-serif;
     }
-
-    body {
-        height: 100%;
-        background-color: #E6E6E6;
+    li{
+        list-style: none;
     }
+
+
 
 
 
@@ -66,7 +72,7 @@
     <!-- start of navbar -->
 <!--    <div class="col-12 card-body">-->
 <!--        <nav class="navbar  bg-color2">-->
-            <nav class="navbar-expand-sm bg-light mt-5">
+            <nav class="navbar-expand-sm bg-light mt-5" width="100%">
 
 <!--                <a class="nav-brand d-flex align-items-center justify-content-center" href="">-->
 <!--                    <img src="assets/logo.png" alt="circle" width="105" height="105">-->
@@ -104,17 +110,17 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
             <h1>codeup design</h1>
         </div>
 <!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
-        <ul class="ml-4 nav">
-            <li class="nav-item">
+        <ul class="text-center row">
+            <li class="row-item">
                 <a class="nav-link text-dark" href="#">Service</a>
             </li>
-            <li class="nav-item">
+            <li class="row-item">
                 <a class="nav-link text-dark" href="#">Work</a>
             </li>
-            <li class="nav-item">
+            <li class="row-item">
                 <a class="nav-link text-dark" href="#">Blog</a>
             </li>
-            <li class="nav-item">
+            <li class="row-item">
                 <a class="nav-link text-dark" href="#">Contact</a>
             </li>
         </ul>
@@ -125,45 +131,49 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
         <h4 class="mt-5 text-center">FROM PARK CITY, UTAH</h4>
 <!--end of headers-->
 <!--circle buttons not aligned or styled, just figure out -->
-    <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="circle">
-                        <p>design</p>
+             <div class="row">
+                        <div class="col-6 col-md-6">
+                            <div class="circle design">
+                                <p class=" text-center">design</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="circle">
+                                <p class="text-center">develop</p>
+                            </div>
+                        </div>
+             </div>
+
+            <div class="row">
+                    <div class="col-6 col-md-6">
+                        <div class="circle">
+                            <p class="text-center">support</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="circle">
-                        <p>develop</p>
+                    <div class="col-6 col-md-6">
+                        <div class="circle">
+                            <p class="text-center">HOST</p>
+                        </div>
                     </div>
-                </div>
             </div>
-    <div class="row">
-            <div class="col-md-4">
-                <div class="circle">
-                    <p>support</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="circle">
-                    <p>develop</p>
-                </div>
-            </div>
-    </div>
+         </div>
 <!--END OF CIRCLES-->
 <!--JUST PUT IN THE WORDING AGAIN NO STYLING-->
-    <p>SELECTED WORK</p>
+    <p class="text-center">SELECTED WORK</p>
 <!--LOADED THE IMAGE TO THE PAGE-->
-    <img src="assets/images/apple-ipad.jpg" height="426" width="640"/></div>
-<!--TRIED TO MAKE THE LITTLE CIRCLES-->
-<div class="row">
-    <div class="footer">
-        <div class="col-md-4 block">
-            <div class="dots">
-                <p>d</p>
-            </div>
-        </div>
+    <div class="card-body border rounded">
+    <img src="assets/images/apple-ipad.jpg" width="100%"/>
     </div>
-</div>
+<!--TRIED TO MAKE THE LITTLE CIRCLES-->
+<!--<div class="row">-->
+<!--    <div class="footer">-->
+<!--        <div class="col-md-4 block">-->
+<!--            <div class="dots">-->
+<!--                <p>d</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <!--End main container-->
 
