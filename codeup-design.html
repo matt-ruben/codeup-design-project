@@ -59,6 +59,17 @@
 
 
 
+    #custom .main-logo-xs {
+
+    }
+#custom .custom-container {
+    background-color: white;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 </style>
 <body id="custom">
 <!--start main container-->
@@ -71,8 +82,8 @@
 <!--    <div class="col-12 card-body">-->
 <!--        <nav class="navbar  bg-color2">-->
                 <div>
-                    <a class="brand d-md-none d-sm-block d-flex justify-content-center" href="">
-                    <img src="assets/logo.png" alt="circle" width="105" height="105">
+                   <a class="brand d-md-none d-sm-block d-flex justify-content-center custom-container" href="">
+                    <img src="assets/logo.png" alt="circle" class="main-logo-xs" width="105" height="105">
                      </a>
                 </div>
             <nav class="navbar navbar-light bg-light navbar-expand-md mt-5">
@@ -173,26 +184,26 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                         <figure class="figure">
                             <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
                                  alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption">
+                                <figcaption class="figure-caption">
                                 <!--start of feature and pills pic 4-->
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
                                     <span class="p-2 bd-highlight">
-                                                    <span class="badge badge-pill badge-danger">D</span>
-                                                    <span class="badge badge-pill badge-warning">D</span>
-                                                    <span class="badge badge-pill badge-success">S</span>
-                                                    <span class="badge badge-pill badge-info">H</span>
-                                                </span>
+                                        <span class="badge badge-pill badge-danger">D</span>
+                                        <span class="badge badge-pill badge-warning">D</span>
+                                        <span class="badge badge-pill badge-success">S</span>
+                                        <span class="badge badge-pill badge-info">H</span>
+                                    </span>
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
                     <!--MACBOOK PICTURE BOX-->
-                    <div class="col-sm-6 mb-1">
+                    <div class="col-sm-6 mb-1 d-none d-sm-block">
                         <figure class="figure">
                             <img src="assets/images/macbook.jpg" class="figure-img img-fluid rounded"
                                  alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption">
+                                 <figcaption class="figure-caption">
                                 <!--start of feature and pills pic 4-->
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
@@ -202,35 +213,35 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                                                     <span class="badge badge-pill badge-success">S</span>
                                                     <span class="badge badge-pill badge-info">H</span>
                                                 </span>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
+                                            </div>
+                                    </figcaption>
+                            </figure>
+                         </div>
                     <!--MAN PICTURE BOX-->
-                    <div class="col-sm-6 mb-1">
+                    <div class="col-sm-6 mb-1 d-none d-sm-block">
                         <figure class="figure">
                             <img src="assets/images/man.jpg" class="figure-img img-fluid rounded"
-                                 alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption">
+                                alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">
                                 <!--start of feature and pills pic 4-->
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
                                     <span class="p-2 bd-highlight">
-                                                    <span class="badge badge-pill badge-danger">D</span>
-                                                    <span class="badge badge-pill badge-warning">D</span>
-                                                    <span class="badge badge-pill badge-success">S</span>
-                                                    <span class="badge badge-pill badge-info">H</span>
-                                                </span>
+                                        <span class="badge badge-pill badge-danger">D</span>
+                                        <span class="badge badge-pill badge-warning">D</span>
+                                        <span class="badge badge-pill badge-success">S</span>
+                                        <span class="badge badge-pill badge-info">H</span>
+                                    </span>
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
                     <!--SECURITY PICTURE BOX-->
-                    <div class="col-sm-6 mb-1">
+                    <div class="col-sm-6 mb-1 d-none d-sm-block">
                         <figure class="figure">
                             <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
                                  alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption">
+                                <figcaption class="figure-caption">
                                 <!--start of feature and pills pic 4-->
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
@@ -240,11 +251,66 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                                                     <span class="badge badge-pill badge-success">S</span>
                                                     <span class="badge badge-pill badge-info">H</span>
                                                 </span>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-            </div>
+                                            </div>
+                                </figcaption>
+                           </figure>
+                        </div>
+                </div>
+<!--                    start of md img-->
+
+<div class="row card-body">
+    <div class="col-sm-8 col-12">
+        <h6>Selected Work</h6>
+    </div>
+    <div class="col-sm-4 col-12">
+        <h6>The Last</h6>
+
+    </div>
+</div>
+
+<!--<div class="row">-->
+<!--    &lt;!&ndash;left column content&ndash;&gt;-->
+<!--    <div class="col-sm-8 col-12" ID="left-col">-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">Selected Work</h6>-->
+<!--            <ul>-->
+<!--                <li>HTML</li>-->
+<!--                <li>CSS</li>-->
+<!--                <li>JAVASCRIPT</li>-->
+<!--                <li>BOOTSTRAP</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">ACADEMIC</h6>-->
+<!--            <p>This is my academic information</p>-->
+<!--        </div>-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">Professional Experience</h6>-->
+<!--            <p>This is my job</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;right column content&ndash;&gt;-->
+<!--    <div class="col-sm-4 d-none d-sm-block" id="right-col">-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">Development Projects </h6>-->
+<!--            <p>This is my job</p>-->
+<!--        </div>-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">Awards & Involvement</h6>-->
+<!--            <p>This is my job</p>-->
+<!--        </div>-->
+<!--        <div class="mt-5">-->
+<!--            <h6 class="section-header">Awards & Involvement</h6>-->
+<!--            <p>This is my job</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--end of md img-->
+
+
+
+</div>
 <!--End main container-->
 
 
