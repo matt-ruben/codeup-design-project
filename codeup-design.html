@@ -96,6 +96,9 @@
        top: 50px;
        /* margin-bottom: 50px;*/
     }
+   #custom .pad {
+       padding: 0;
+   }
 
 
 </style>
@@ -201,16 +204,68 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
 <hr class="d-none d-sm-block">
 
 
-<!--JUST PUT IN THE WORDING AGAIN NO STYLING-->
-    <p class="text-center">SELECTED WORK</p>
-
-<!--APPLE PICTURE BOX-->
-
+<!--THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
+    <div class="d-block d-sm-none">
+        <p class="text-center">SELECTED WORK</p>
+        <figure class="figure">
+            <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
+                 alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption">
+                <!--start of feature and pills pic 4-->
+                <div class="d-flex  mb-3">
+                    <div class="mr-auto p-2">FEATURED PROJECTS</div>
+                    <span class="p-2">
+                        <span class="badge badge-pill text-dark red">D</span>
+                        <span class="badge badge-pill text-dark yellow">D</span>
+                        <span class="badge badge-pill text-dark green">S</span>
+                        <span class="badge badge-pill text-dark blue">H</span>
+                    </span>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="text-center  d-sm-block d-md-none">
         <h6>Selected Work</h6>
-        <div class="row col-12 col-md-6">
-    <div class="row col-sm-12 text-left">
+    </div>
+<!--END OF THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
+<!--APPLE PICTURE BOX-->
+    <div class="row">
+        <div class="col-md-8 mb-1 pad d-sm-none d-md-block">
+            <p>Selected Work</p>
+        </div>
 
-            <div class="col-sm-6 mb-1">
+
+
+
+        <div class="col-md-4 mb-0 pad d-sm-none d-md-block">
+        <h6>The Last</h6>
+            <div class="mt-5">
+                <div class="card clickbait bg-transparent border-0">
+                    <a><img src="assets/images/mobile-phone.jpg" height="50" width="50"; class ="float-left pr-2"/>
+                        THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="mt-5">
+                    <div class="card clickbait bg-transparent border-0">
+                        <a><img src="assets/images/head.jpg"  height="50" width="50"; class ="float-left pr-2"/>
+                            NIBBLER AWESOME<br> WEBSITE TESTING</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="mt-5">
+                    <div class="card clickbait bg-transparent border-0">
+                        <a><img src="assets/images/ipad.jpg" height="50" width="50"; class ="float-left pr-2"/>
+                            HOW TO GET GOOGLE TO <br> LIKE YOU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row  ">
+    <div class="col-sm-6 mb-1 d-none d-sm-block">
                 <figure class="figure">
                     <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
                          alt="A generic square placeholder image with rounded corners in a figure.">
@@ -285,34 +340,33 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                        </figcaption>
                </figure>
             </div>
-        </div>
-        </div>
+
+</div>
         <div class="col-md-4 d-none d-sm-none d-md-block">
 
-        <h6 class="d-flex">The Last</h6>
 <!--       <div class="col-md-5 d-none d-sm-block">-->
-            <div class="mt-5">
-                <div class="card clickbait bg-transparent border-0">
-                    <a><img src="assets/images/mobile-phone.jpg" height="50" width="50"; class ="float-left pr-2"/>
-                        THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>
-                </div>
-            </div>
-        <div class="d-none d-md-block">
-            <div class="mt-5">
-                <div class="card clickbait bg-transparent border-0">
-                    <a><img src="assets/images/head.jpg"  height="50" width="50"; class ="float-left pr-2"/>
-                        NIBBLER AWESOME<br> WEBSITE TESTING</a>
-                </div>
-            </div>
-        </div>
-        <div class="d-none d-md-block">
-            <div class="mt-5">
-                <div class="card clickbait bg-transparent border-0">
-                    <a><img src="assets/images/ipad.jpg" height="50" width="50"; class ="float-left pr-2"/>
-                        HOW TO GET GOOGLE TO <br> LIKE YOU</a>
-                </div>
-            </div>
-        </div>
+<!--            <div class="mt-5">-->
+<!--                <div class="card clickbait bg-transparent border-0">-->
+<!--                    <a><img src="assets/images/mobile-phone.jpg" height="50" width="50"; class ="float-left pr-2"/>-->
+<!--                        THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        <div class="d-none d-md-block">-->
+<!--            <div class="mt-5">-->
+<!--                <div class="card clickbait bg-transparent border-0">-->
+<!--                    <a><img src="assets/images/head.jpg"  height="50" width="50"; class ="float-left pr-2"/>-->
+<!--                        NIBBLER AWESOME<br> WEBSITE TESTING</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="d-none d-md-block">-->
+<!--            <div class="mt-5">-->
+<!--                <div class="card clickbait bg-transparent border-0">-->
+<!--                    <a><img src="assets/images/ipad.jpg" height="50" width="50"; class ="float-left pr-2"/>-->
+<!--                        HOW TO GET GOOGLE TO <br> LIKE YOU</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
         </div>
 
