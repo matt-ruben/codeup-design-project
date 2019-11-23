@@ -7,6 +7,7 @@ body {
     background-color: #E6E6E6;
     padding:0;
     font-family: 'Abel', sans-serif;
+    /*margin:10em 10em;*/
 }
 #custom .circle {
     border-radius: 50%;
@@ -69,6 +70,7 @@ li{
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     font-size: larger;
+    height: 15%
 }
 
 #custom .custom-container2 {
@@ -83,7 +85,8 @@ li{
     top: 50px;
     /* margin-bottom: 50px;*/
 }
-#custom .pad {
-    padding: 0;
+.badge{
+    height:18px;
+    width:18px
 }
 
