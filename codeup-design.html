@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/codeup-design.css">
     <title>Codeup Design</title>
 </head>
-<body>
+<div>
 <div id="custom">
 <!--start main container-->
 
@@ -23,13 +23,16 @@
 <!--    <div class="col-12 card-body">-->
 <!--        <nav class="navbar  bg-color2">-->
 <!--ADDED THIS NAV BAR TO SEE WHAT IT WOULD DO, JUST NEED TO CENTER AND LINE UP ITEMS-->
+    <div class="container" id="main-container">
+
+
     <div class="brand d-sm-none d-block d-flex justify-content-center custom-container">
 
         <img src="assets/logo.png" alt="circle" class="main-logo-xs" width="105" height="105">
     </div>
     <div class=" d-none d-md-none d-sm-block d-flex justify-content-center brand">
 
-        <ul class="custom-container2 d-none d-flex align-items-center justify-content-center">
+<ul class="bg-light d-none d-flex align-items-center justify-content-center">
 
             <li class="nav-item d-none d-sm-block d-md-none">
                 <a class="nav-link text-dark" href="#">SERVICES</a>
@@ -138,120 +141,121 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
     </div>
 <!--END OF THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
 <!--APPLE PICTURE BOX-->
-    <div class="row">
-        <div class="col-md-8 mb-1 pad d-none d-sm-none d-md-block">
-            <p>Selected Work</p>
-        </div>
-
-
-
-
-        <div class="col-md-4 mb-0 pad d-none d-sm-none d-md-block">
-        <h6>The Last</h6>
-            <div class="mt-5">
-                <div class="card clickbait bg-transparent border-0">
-                    <a><img src="assets/images/mobile-phone.jpg" height="50" width="50"; class ="float-left pr-2"/>
-                        THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>
-                </div>
-            </div>
-            <div class="d-none d-md-block">
+        <div class="row">
+            <div class="col-12 col-md-7" id="left">
                 <div class="mt-5">
-                    <div class="card clickbait bg-transparent border-0">
-                        <a><img src="assets/images/head.jpg"  height="50" width="50"; class ="float-left pr-2"/>
-                            NIBBLER AWESOME<br> WEBSITE TESTING</a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-md-block">
-                <div class="mt-5">
-                    <div class="card clickbait bg-transparent border-0">
-                        <a><img src="assets/images/ipad.jpg" height="50" width="50"; class ="float-left pr-2"/>
-                            HOW TO GET GOOGLE TO <br> LIKE YOU</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <h6 class="section-header mb-3">Selected Work</h6>
+                    <!--                apple pic-->
+                    <div class="d-flex align-content-center">
 
-<div class="row  ">
-    <div class="col-sm-6 mb-1 d-none d-sm-block">
-                <figure class="figure">
-                    <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
-                         alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">
-                            <!--start of feature and pills pic 4-->
-                            <div class="d-flex  mb-3">
-                                <div class="mr-auto p-2">FEATURED PROJECTS</div>
-                                <span class="p-2">
-                                    <span class="badge badge-pill text-dark red">D</span>
-                                    <span class="badge badge-pill text-dark yellow">D</span>
-                                    <span class="badge badge-pill text-dark green">S</span>
-                                    <span class="badge badge-pill text-dark blue">H</span>
-                                </span>
-                            </div>
-                        </figcaption>
-                </figure>
-            </div>
-            <!--MACBOOK PICTURE BOX-->
-            <div class="col-sm-6 mb-1 d-none d-sm-block">
-                <figure class="figure">
-                    <img src="assets/images/macbook.jpg" class="figure-img img-fluid rounded"
-                        alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">
-                            <!--start of feature and pills pic 4-->
-                            <div class="d-flex bd-highlight mb-3">
-                                <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
-                                <span class="p-2 bd-highlight">
-                                    <span class="badge badge-pill text-dark red">D</span>
-                                    <span class="badge badge-pill text-dark yellow">D</span>
-                                    <span class="badge badge-pill text-dark green">S</span>
-                                    <span class="badge badge-pill text-dark blue">H</span>
-                                </span>
-                            </div>
-                        </figcaption>
-                </figure>
-            </div>
-                        <!--MAN PICTURE BOX-->
-            <div class="col-sm-6 mb-1 d-none d-sm-block">
-                <figure class="figure">
-                    <img src="assets/images/man.jpg" class="figure-img img-fluid rounded"
-                        alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">
+                        <figure class="figure mr-3 card container bg-transparent border-0">
+                            <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
                                 <!--start of feature and pills pic 4-->
-                            <div class="d-flex bd-highlight mb-3">
-                                <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
-                                <span class="p-2 bd-highlight">
+                                <div class="d-flex  mb-3">
+                                    <div class="mr-auto p-2">FEATURED PROJECTS</div>
+                                   <span class="pt-2">
                                     <span class="badge badge-pill text-dark red">D</span>
                                     <span class="badge badge-pill text-dark yellow">D</span>
                                     <span class="badge badge-pill text-dark green">S</span>
                                     <span class="badge badge-pill text-dark blue">H</span>
                                 </span>
-                            </div>
-                        </figcaption>
-                </figure>
-            </div>
-                        <!--SECURITY PICTURE BOX-->
-            <div class="col-sm-6 mb-1 d-none d-sm-block">
-                <figure class="figure">
-                    <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
-                         alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">
-                        <!--start of feature and pills pic 4-->
-                            <div class="d-flex bd-highlight mb-3">
-                                <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
-                                    <span class="p-2 bd-highlight">
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <!--                end apple pic-->
+
+                        <!--                mac pic-->
+
+                        <figure class="figure card container bg-transparent border-0">
+                            <img src="assets/images/macbook.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
+                                    <span class="pt-2 bd-highlight">
+                                    <span class="badge badge-pill text-dark red">D</span>
+                                    <span class="badge badge-pill text-dark yellow">D</span>
+                                    <span class="badge badge-pill text-dark green">S</span>
+                                    <span class="badge badge-pill text-dark blue">H</span>
+                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--                end mac pic-->
+
+                    <!--                man pic-->
+                    <div class="d-flex align-content-center">
+                        <figure class="figure mr-3 card container bg-transparent border-0">
+                            <img src="assets/images/man.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
+                                    <span class="pt-2 bd-highlight">
+                                    <span class="badge badge-pill text-dark red">D</span>
+                                    <span class="badge badge-pill text-dark yellow">D</span>
+                                    <span class="badge badge-pill text-dark green">S</span>
+                                    <span class="badge badge-pill text-dark blue">H</span>
+                                </span>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <!--                end man pic-->
+                        <!--                start sec pic-->
+                        <figure class="figure card container bg-transparent border-0">
+                            <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
+                                 alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">
+                                <!--start of feature and pills pic 4-->
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="mr-auto p-2 text-dark">FEATURED PROJECTS</div>
+                                    <span class="pt-2 bd-highlight">
                                         <span class="badge badge-pill text-dark red">D</span>
                                         <span class="badge badge-pill text-dark yellow">D</span>
                                         <span class="badge badge-pill text-dark green">S</span>
                                         <span class="badge badge-pill text-dark blue">H</span>
                                     </span>
-                            </div>
-                       </figcaption>
-               </figure>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--                end sec pic-->
+                </div>
+                <!--            end of pic rows-->
+
+
+            </div>
+            <!--        beginning of mac pic right column-->
+            <div class="col-12 col-md-5" id="right">
+                <h6 class="section-header mt-5">The Last</h6>
+                <div class="card clickbait bg-transparent border-0 mt-5 h4 ml-3">
+                    <a><img src="assets/images/mobile-phone.jpg" height="70" width="70"; class ="float-left pr-2"/>
+                        THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>
+                </div>
+                <!--           ending of mac pic-->
+                <!--            beginning of head pic-->
+                <div class="card clickbait bg-transparent border-0 mt-4 ml-3 h4">
+                    <a><img src="assets/images/head.jpg"  height="70" width="70"; class ="float-left pr-2"/>
+                        NIBBLER AWESOME<br> WEBSITE TESTING</a>
+                </div>
+                <!--        end of head pic-->
+
+                <!--         ipad   beginning of -->
+                <div class="card clickbait bg-transparent border-0 mt-4 ml-3 h4">
+                    <a><img src="assets/images/ipad.jpg" height="70" width="70"; class ="float-left pr-2"/>
+                        HOW TO GET GOOGLE TO <br> LIKE YOU</a>
+                </div>
+                <!--ending of ipad-->
             </div>
 
-</div>
-        <div class="col-md-4 d-none d-sm-none d-md-block">
+
+        </div>
 
 <!--       <div class="col-md-5 d-none d-sm-block">-->
 <!--            <div class="mt-5">-->
@@ -277,7 +281,9 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
 <!--            </div>-->
 <!--        </div>-->
     </div>
-        </div>
+</div>
+
+</div>
 
 
 
