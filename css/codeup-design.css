@@ -85,8 +85,11 @@ li{
     top: 50px;
     /* margin-bottom: 50px;*/
 }
-.badge{
+#custom .badge{
     height:18px;
     width:18px
 }
 
+#custom .size {
+    font-size: smaller;
+}
