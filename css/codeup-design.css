@@ -98,8 +98,8 @@ li{
 }
 
 #custom .badge {
-    height:15px;
-    width:15px;
+    height:18px;
+    width:18px;
     display: flex;
    justify-content: center;
     flex-direction: column;
