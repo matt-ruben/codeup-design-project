@@ -73,7 +73,7 @@ li{
     height: 15%
 }
 
-#custom .bg-light {
+#custom .new-nav {
     background-color: white;
    height: 50px;
     margin-top: 50px;
@@ -87,7 +87,20 @@ li{
 }
 #custom .badge{
     height:18px;
-    width:18px
+    width:18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   text-align: center;
+    float: right;
+    margin-left: 6px;
+    font-size: 9px;
+}
+
+#custom .body-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    float: left;
 }
 
 #custom .size {
