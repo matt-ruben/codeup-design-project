@@ -9,68 +9,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/codeup-design.css">
-    <script src="https://kit.fontawesome.com/f868b57b2e.js" crossorigin="anonymous"></script>
     <title>Codeup Design</title>
 </head>
-<body>
-<div id="custom">
-<!--start main container-->
+<div class="container p-0">
+    <div  id="custom">
+            <div class="brand d-sm-none d-block d-flex justify-content-center custom-container">
 
+                <img src="assets/logo.png" alt="circle" class="main-logo-xs" width="105" height="105">
+            </div>
+            <div class=" d-none d-md-none d-sm-block d-flex justify-content-center brand">
 
-    <!-- start of navbar -->
-<!--ADDED THIS NAV BAR TO SEE WHAT IT WOULD DO, JUST NEED TO CENTER AND LINE UP ITEMS-->
-    <div class="brand d-sm-none d-block d-flex justify-content-center custom-container">
-        <img src="assets/logo.png" alt="circle" class="main-logo-xs" width="105" height="105">
-    </div>
-    <div class=" d-none d-md-none d-sm-block d-flex justify-content-center brand">
-        <ul class="custom-container2 d-none d-flex align-items-center justify-content-center">
-            <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link text-dark" href="#">SERVICES</a>
-           </li>
-            <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link text-dark" href="#">WORK</a>
-            </li>
-            <li class="d-none d-sm-block d-md-none">
-                <a class="nav-brand main-logo-s" href="">
-                    <img src="assets/logo.png" alt="circle" class="main-logo-xs " width="105" height="105">
-                </a>
-            </li>
-            <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link text-dark" href="#">BLOG</a>
-            </li>
-            <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link text-dark" href="#">CONTACT</a>
-            </li>
-        </ul>
-    </div>
-<!--END OF NAV BAR ADDED POSSIBLY DISPLAY NONE WHEN IN THE XS SCREEN
-matt- added d-none to hide nav items when in small screen and d-md-block to display on med screen-->
-<!--            </nav>-->
+                <ul class="new-nav d-none d-flex align-items-center justify-content-center">
 
+                    <li class=" d-none d-sm-block d-md-none">
+                        <a class="nav-link text-dark" href="#">SERVICES</a>
+                    </li>
+                    <li class=" d-none d-sm-block d-md-none">
+                        <a class="nav-link text-dark" href="#">WORK</a>
+                    </li>
+                    <li class="d-none d-sm-block d-md-none">
+                        <a class=" main-logo-s" href="">
+                            <img src=" assets/logo.png" alt="circle" class="main-logo-xs " width="105" height="105">
+                        </a>
+                    </li>
+                    <li class=" d-none d-sm-block d-md-none">
+                        <a class="nav-link text-dark" href="#">BLOG</a>
+                    </li>
+                    <li class=" d-none d-sm-block d-md-none">
+                        <a class="nav-link text-dark" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
 
-<!--end of navbar-->
-<!--start of 2nd row-->
-    <div class="text-center ">
-        <h1>codeup design</h1>
-    </div>
-
-    <div class="row d-sm-none d-flex justify-content-center p-none">
-    <!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
-        <ul class="row d-md-none">
-            <li class="row-item">
-               <a class="nav-link text-dark " href="#">Service</a>
-            </li>
-            <li class="row-item">
-                <a class="nav-link text-dark" href="#">Work</a>
-            </li>
-            <li class="row-item">
-                <a class="nav-link text-dark" href="#">Blog</a>
-            </li>
-            <li class="row-item">
-                <a class="nav-link text-dark" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
 <!--end of small nav bar-->
 <!--start of headers after nav bar for small screen-->
         <h2 class=" header mt-5 text-center">VISUAL DESIGN & WEB DEVELOPMENT</h2>
@@ -79,9 +49,36 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
 <!--circle buttons not aligned or styled, just figure out -->
     <div class="container-fluid">
             <div class="row">
+            <!--end of navbar-->
+            <!--start of 2nd row-->
+            <div class="row d-sm-none d-flex justify-content-center p-none">
+                <!--part of small nav bar DISPLAY NONE ONCE OUT IF XS SCREEN-->
+                <ul class="row d-md-none">
+                    <li class="row-item">
+                        <a class="nav-link text-dark " href="#">Service</a>
+                    </li>
+                    <li class="row-item">
+                        <a class="nav-link text-dark" href="#">Work</a>
+                    </li>
+                    <li class="row-item">
+                        <a class="nav-link text-dark" href="#">Blog</a>
+                    </li>
+                    <li class="row-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--end of small nav bar-->
+            <!--start of headers after nav bar for small screen-->
+            <h2 class=" header mt-5 text-center">VISUAL DESIGN & WEB DEVELOPMENT</h2>
+            <h4 class=" header mt-5 text-center">FROM PARK CITY, UTAH</h4>
+            <!--end of headers-->
+            <!--circle buttons not aligned or styled, just figure out -->
+<!--            <div class="container">-->
+                <div class="row container">
                     <div class="col-sm-3 col-6">
-                       <div class="circle design red">
-                            <p class="text-center">DESIGN</p>
+                        <div class="circle design red">
+                            <p class=" text-center">DESIGN</p>
                         </div>
                     </div>
                     <div class="col-sm-3 col-6">
@@ -99,14 +96,19 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                             <p class="text-center">HOST</p>
                         </div>
                     </div>
+
             </div>
     </div>
 <!--END OF CIRCLES-->
 <!--BEGINNING OF BREAK POINT-->
     <hr class="d-none d-sm-block">
 
-
-<!--THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
+                </div>
+<!--            </div>-->
+            <!--END OF CIRCLES-->
+            <!--BEGINNING OF BREAK POINT-->
+            <hr class="d-none d-sm-block">
+            <!--THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
             <div class="d-block d-sm-none">
                 <p class="text-center">SELECTED WORK</p>
                 <figure class="figure">
@@ -203,12 +205,92 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
                         <div class="d-flex bd-highlight mb-3">
                             <div class="text-dark pr-2"><small>FEATURED PROJECT</small>
                                 <span class="ml-2">
+                                <div class="d-flex  mb-3">
+                                <span class="mr-auto p-2">FEATURED PROJECTS</span>
+                                <span class=" mr-auto p-2">
                                     <span class="badge badge-pill text-dark red">D</span>
                                     <span class="badge badge-pill text-dark yellow">D</span>
                                     <span class="badge badge-pill text-dark green">S</span>
                                     <span class="badge badge-pill text-dark blue">H</span>
                                 </span>
+                                </div>
+                                </span>
                             </div>
+                        </div>
+                     </figcaption>
+                </figure>
+            </div>
+            <div class="text-center d-none d-sm-block d-md-none">
+                <h6>Selected Work</h6>
+            </div>
+        </div>
+            <!--END OF THIS WILL DISAPPEAR OUTSIDE OF XSMALL VIEW-->
+
+
+<!--            for large-->
+            <!--APPLE PICTURE BOX-->
+            <div class="row m-auto">
+
+                <div class="col-12 col-md-8 d-none d-sm-block d-md-block" id="left">
+                    <div class="mt-5">
+                       <h6 class="section-header mb-3">Selected Work</h6>
+                        <!--                apple pic-->
+                        <div class="d-flex align-content-center">
+
+                            <figure class="figure mr-5">
+                                <img src="assets/images/apple-ipad.jpg" class="figure-img img-fluid rounded"
+                                     alt="A generic square placeholder image with rounded corners in a figure.">
+                               <figcaption class="figure-caption">
+                                    <!--start of feature and pills pic 4-->
+                                   <div class="d-flex mb-3">
+                                        <div class="mr-auto pt-2 body-text">FEATURED PROJECTS</div>
+                                       <span class="mr-auto pt-2">
+                                    <span class="badge badge-pill text-dark red">D</span>
+                                    <span class="badge badge-pill text-dark yellow">D</span>
+                                    <span class="badge badge-pill text-dark green">S</span>
+                                    <span class="badge badge-pill text-dark blue">H</span>
+                                </span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <!--                end apple pic-->
+
+                            <!--                mac pic-->
+
+                            <figure class="figure">
+                                <img src="assets/images/macbook.jpg" class="figure-img img-fluid rounded"
+                                     alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">
+                                    <!--start of feature and pills pic 4-->
+                                    <div class="d-flex bd-highlight mb-3">
+                                        <div class=" mr-auto pt-2 text-dark body-text">FEATURED PROJECTS</div>
+                                        <span class="mr-auto pt-2 bd-highlight">
+                                    <span class="badge badge-pill text-dark red">D</span>
+                                    <span class="badge badge-pill text-dark yellow">D</span>
+                                    <span class="badge badge-pill text-dark green">S</span>
+                                    <span class="badge badge-pill text-dark blue">H</span>
+                                </span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!--                end mac pic-->
+
+                        <!--                man pic-->
+                        <div class="d-flex align-content-center">
+                            <figure class="figure mr-5">
+                                <img src="assets/images/man.jpg" class="figure-img img-fluid rounded"
+                                     alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">
+                                    <!--start of feature and pills pic 4-->
+                                    <div class="d-flex bd-highlight mb-3">
+                                        <div class="mr-auto pt-2 text-dark body-text">FEATURED PROJECTS</div>
+                                        <span class="mr-auto pt-2 bd-highlight">
+                                    <span class="badge badge-pill text-dark red">D</span>
+                                    <span class="badge badge-pill text-dark yellow">D</span>
+                                    <span class="badge badge-pill text-dark green">S</span>
+                                    <span class="badge badge-pill text-dark blue">H</span>
+                                </span>
                         </div>
                    </figcaption>
            </figure>
@@ -246,22 +328,70 @@ matt- added d-none to hide nav items when in small screen and d-md-block to disp
 <!--                    start of twitter side  img-->
 <!--right column content-->
 
+                                    </div>
+                                </figcaption>
+                            </figure>
+
+                            <!--                end man pic-->
+                            <!--                start sec pic-->
+                            <figure class="figure">
+                                <img src="assets/images/security.jpg" class="figure-img img-fluid rounded"
+                                     alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">
+                                    <!--start of feature and pills pic 4-->
+                                    <div class="d-flex bd-highlight mb-3">
+                                        <div class="mr-auto pt-2 text-dark body-text">FEATURED PROJECTS</div>
+                                        <span class="mr-auto pt-2 bd-highlight">
+                                        <span class="badge badge-pill text-dark red">D</span>
+                                        <span class="badge badge-pill text-dark yellow">D</span>
+                                        <span class="badge badge-pill text-dark green">S</span>
+                                        <span class="badge badge-pill text-dark blue">H</span>
+                                    </span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!--                end sec pic-->
+                    </div>
+                    <!--            end of pic rows-->
+
+
+                </div>
+                <!--        beginning of mac pic right column-->
+                <div class="col-12 col-md-4 d-none d-md-block" id="right">
+                    <h6 class="section-header mt-5">The Last</h6>
+                    <div class="clickbait bg-transparent border-0 mt-5 h6 ml-3">
+                        <a><img src="assets/images/mobile-phone.jpg" height="40" width="50"; class ="float-left pr-2"/>
+                            THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</a>
+                    </div>
+                    <!--           ending of mac pic-->
+                    <!--            beginning of head pic-->
+                    <div class="clickbait bg-transparent border-0 mt-4 ml-3 h6">
+                        <a><img src="assets/images/head.jpg"  height="40" width="50"; class ="float-left pr-2"/>
+                            NIBBLER AWESOME<br> WEBSITE TESTING</a>
+                    </div>
+                    <!--        end of head pic-->
+                    <!--         ipad   beginning of -->
+                            <div class="clickbait bg-transparent border-0 mt-4 ml-3 h6">
+                       <a><img src="assets/images/ipad.jpg" height="40" width="50"; class ="float-left pr-2"/>
+                            HOW TO GET GOOGLE TO LIKE YOU</a>
+                    </div>
+                    <!--ending of ipad-->
+                </div>
+            </div>
+<!--            end of large-->
+
+<!--        start of md-->
 
 
 
 
 
+<!--        end of md-->
 
 
-
-
-
-
-
-
-
-<!--End main container-->
-
+    </div>
+</div>
 
 
 
